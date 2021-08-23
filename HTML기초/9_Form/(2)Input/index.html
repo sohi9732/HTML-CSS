@@ -1,0 +1,31 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+  <!-- 여기에 코드를 작성하세요 ❤️ -->
+  <form action="" method="GET">
+    <input type="text" placeholder="이름을 입력하세요" required /> <!-- 필수 입력 -->
+    <input type="text" placeholder="이름을 입력하세요" disabled /> <!-- 입력 비활성화 -->
+    <input type="text" placeholder="이름을 입력하세요" value="김소희" /> <!-- 미리 텍스트 삽입 -->
+
+    <input type="text" placeholder="아이디를 입력하세요" minlength="5" maxlength="13" />
+    <input type="email" placeholder="이메일을 입력하세요" />
+    <input type="password" placeholder="비밀번호를 입력하세요" />
+    <input type="url" placeholder="포트폴리오 url을 적으시오" />
+    <input type="number" min="12" max="122" placeholder="나이를 입력하세요 (12세 이상~122세 이하)" />
+    <input type="file" accept=".png, .jpg" />
+  <button>
+    Submit
+  </button>
+  </form>
+  
+</body>
+</html>
