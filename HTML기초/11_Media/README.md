@@ -2,6 +2,7 @@
 
 `<audio>` 태그  
 `<video>` 태그  
+
 속성
 - controls : 사용자 컨트롤러
 - autoplay : 자동재생
